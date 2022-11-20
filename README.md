@@ -31,5 +31,8 @@ module "example" {
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | The prefix to use for the file name | `string` | `"id_rsa"` | no |
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_local_file_content"></a> [local\_file\_content](#output\_local\_file\_content) | The content of the file to be created |
+| <a name="output_prefix"></a> [prefix](#output\_prefix) | The prefix to use for the file name |
 <!-- END_AUTOMATED_TF_DOCS_BLOCK -->

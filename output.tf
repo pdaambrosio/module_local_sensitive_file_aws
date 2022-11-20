@@ -1,10 +1,10 @@
 output "local_file_content" {
-  type        = string
   sensitive   = true
   description = "The content of the file to be created"
+  value       = var.local_file_content
 }
 
 output "prefix" {
-  type        = string
   description = "The prefix to use for the file name"
+  value       = var.prefix
 }
