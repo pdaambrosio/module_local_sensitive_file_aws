@@ -16,6 +16,7 @@ module "example" {
 
 	 # Optional variables
 	 prefix  = "id_rsa"
+	 user_path  = "/home/pdaambrosio"
 }
 ```
 ## Resources
@@ -29,6 +30,7 @@ module "example" {
 |------|-------------|------|---------|:--------:|
 | <a name="input_local_file_content"></a> [local\_file\_content](#input\_local\_file\_content) | The content of the file to be created | `string` | n/a | yes |
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | The prefix to use for the file name | `string` | `"id_rsa"` | no |
+| <a name="input_user_path"></a> [user\_path](#input\_user\_path) | The path to the user's home directory | `string` | `"/home/pdaambrosio"` | no |
 ## Outputs
 
 | Name | Description |

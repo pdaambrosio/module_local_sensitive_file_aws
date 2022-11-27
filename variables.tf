@@ -9,3 +9,9 @@ variable "prefix" {
   description = "The prefix to use for the file name"
   default     = "id_rsa"
 }
+
+variable "user_path" {
+  type        = string
+  description = "The path to the user's home directory"
+  default     = "/home/pdaambrosio"
+}
